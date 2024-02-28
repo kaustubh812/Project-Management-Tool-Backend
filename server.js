@@ -11,7 +11,7 @@ dotenv.config() // Load environment variables
 
 // Define CORS options
 const corsOptions = {
-    origin: 'http://localhost:3000', // Allow requests from your frontend origin
+    origin: 'https://project-management-tool-frontend-psi.vercel.app/', // Allow requests from your frontend origin
     methods: ['GET', 'POST', 'PATCH', 'DELETE'] // Specify which HTTP methods are allowed
 };
 
