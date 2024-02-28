@@ -11,7 +11,7 @@ dotenv.config() // Load environment variables
 
 // Define CORS options
 const corsOptions = {
-    origin: 'http://localhost:5000', // Allow requests from your frontend origin
+    origin: 'http://localhost:3000', // Allow requests from your frontend origin
     methods: ['GET', 'POST', 'PATCH', 'DELETE'] // Specify which HTTP methods are allowed
 };
 
